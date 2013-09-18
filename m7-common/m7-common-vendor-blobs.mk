@@ -149,8 +149,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
         vendor/htc/m7-common/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
         vendor/htc/m7-common/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-        vendor/htc/m7-common/proprietary/lib/egl/libplayback_adreno200.so:/system/lib/egl/libplayback_adreno200.so \
-        vendor/htc/m7-common/proprietary/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
         vendor/htc/m7-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
         vendor/htc/m7-common/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
         vendor/htc/m7-common/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
@@ -214,5 +212,4 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/firmware/BCM4335B0_002.001.006.0191.0194.hcd:/system/etc/firmware/BCM4335B0_002.001.006.0191.0194.hcd \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_apsta_b0.bin:/system/etc/firmware/fw_bcm4335_apsta_b0.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_b0.bin:/system/etc/firmware/fw_bcm4335_b0.bin \
-        vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_p2p_b0.bin:/system/etc/firmware/fw_bcm4335_p2p_b0.bin \
-        vendor/htc/m7-common/proprietary/lib/libwriteback.so:/system/lib/libwriteback.so
+        vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_p2p_b0.bin:/system/etc/firmware/fw_bcm4335_p2p_b0.bin
