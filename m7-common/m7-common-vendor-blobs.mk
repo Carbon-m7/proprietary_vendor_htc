@@ -16,13 +16,11 @@
 
 PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/bin/akmd:/system/bin/akmd \
-        vendor/htc/m7-common/proprietary/bin/efsks:/system/bin/efsks \
         vendor/htc/m7-common/proprietary/bin/ks:/system/bin/ks \
         vendor/htc/m7-common/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/m7-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/m7-common/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/htc/m7-common/proprietary/bin/qmuxd:/system/bin/qmuxd \
-        vendor/htc/m7-common/proprietary/bin/qcks:/system/bin/qcks \
         vendor/htc/m7-common/proprietary/bin/thermald:/system/bin/thermald \
         vendor/htc/m7-common/proprietary/etc/tfa/deftcoefA_l.speaker:/system/etc/tfa/deftcoefA_l.speaker \
         vendor/htc/m7-common/proprietary/etc/tfa/deftcoefA.speaker:/system/etc/tfa/deftcoefA.speaker \
