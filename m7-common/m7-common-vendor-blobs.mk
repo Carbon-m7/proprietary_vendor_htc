@@ -78,10 +78,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/tfa/voip_l.eq:/system/etc/tfa/voip_l.eq \
         vendor/htc/m7-common/proprietary/etc/tfa/voip_l.preset:/system/etc/tfa/voip_l.preset \
         vendor/htc/m7-common/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
-        vendor/htc/m7-common/proprietary/etc/agps_rm:/system/etc/agps_rm \
-        vendor/htc/m7-common/proprietary/etc/hldm.bin:/system/etc/hldm.bin \
-        vendor/htc/m7-common/proprietary/etc/hltof.bin:/system/etc/hltof.bin \
-        vendor/htc/m7-common/proprietary/etc/hltrd.bin:/system/etc/hltrd.bin \
         vendor/htc/m7-common/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
         vendor/htc/m7-common/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
         vendor/htc/m7-common/proprietary/lib/libcsd-client.so:/system/lib/libcsd-client.so \
@@ -157,9 +153,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:/system/vendor/lib/egl/libGLESv2S3D_adreno.so \
         vendor/htc/m7-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:/system/vendor/lib/egl/libq3dtools_adreno.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libadreno_utils.so:/system/vendor/lib/libadreno_utils.so \
-        vendor/htc/m7-common/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libllvm-a3xx.so:/system/vendor/lib/libllvm-a3xx.so \
-        vendor/htc/m7-common/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so \
         vendor/htc/m7-common/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
         vendor/htc/m7-common/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
         vendor/htc/m7-common/proprietary/etc/firmware/vidc.b00:/system/etc/firmware/vidc.b00 \
