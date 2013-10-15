@@ -144,7 +144,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libgeofence.so:/system/lib/libgeofence.so \
         vendor/htc/m7-common/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
         vendor/htc/m7-common/proprietary/lib/libc2d2_a3xx.so:/system/lib/libc2d2_a3xx.so \
-        vendor/htc/m7-common/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
         vendor/htc/m7-common/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
         vendor/htc/m7-common/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
         vendor/htc/m7-common/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
@@ -156,6 +155,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/vendor/lib/libllvm-a3xx.so:/system/vendor/lib/libllvm-a3xx.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libOpenVG.so:/system/vendor/lib/libOpenVG.so \
         vendor/htc/m7-common/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
         vendor/htc/m7-common/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
         vendor/htc/m7-common/proprietary/etc/firmware/vidc.b00:/system/etc/firmware/vidc.b00 \
@@ -165,13 +166,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/firmware/vidc.mdt:/system/etc/firmware/vidc.mdt \
         vendor/htc/m7-common/proprietary/etc/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
         vendor/htc/m7-common/proprietary/etc/firmware/vidcfw.elf:/system/etc/firmware/vidcfw.elf \
-        vendor/htc/m7-common/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
         vendor/htc/m7-common/proprietary/etc/cir.img:/system/etc/cir.img \
-        vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster/keymaster.b00 \
-        vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster/keymaster.b01 \
-        vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
-        vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
-        vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
+        vendor/htc/m7-common/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b01:/system/etc/firmware/hcheck.b01 \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b02:/system/etc/firmware/hcheck.b02 \
@@ -205,7 +201,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libmlplatform.so:/system/lib/libmlplatform.so \
         vendor/htc/m7-common/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
         vendor/htc/m7-common/proprietary/lib/libmpl_jni.so:/system/lib/libmpl_jni.so \
-        vendor/htc/m7-common/proprietary/lib/libQSEEComAPI.so:/system/lib/libQSEEComAPI.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/htc/m7-common/proprietary/etc/firmware/BCM4335B0_002.001.006.0191.0194.hcd:/system/etc/firmware/BCM4335B0_002.001.006.0191.0194.hcd \
@@ -213,3 +208,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_apsta_b0.bin:/system/etc/firmware/fw_bcm4335_apsta_b0.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_b0.bin:/system/etc/firmware/fw_bcm4335_b0.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_p2p_b0.bin:/system/etc/firmware/fw_bcm4335_p2p_b0.bin
+
+PRODUCT_PACKAGES += \
+    CIRModule \
+    htcirlibs \
+    cir \
+    cir_fw_update \
+    libhtcirinterface_jni
+
