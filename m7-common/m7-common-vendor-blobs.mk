@@ -78,6 +78,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
         vendor/htc/m7-common/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
         vendor/htc/m7-common/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
+        vendor/htc/m7-common/proprietary/lib/libCB.so:/system/lib/libCB.so \
         vendor/htc/m7-common/proprietary/lib/libcsd-client.so:/system/lib/libcsd-client.so \
         vendor/htc/m7-common/proprietary/lib/hw/camera.vendor.msm8960.so:/system/lib/hw/camera.vendor.msm8960.so \
         vendor/htc/m7-common/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
